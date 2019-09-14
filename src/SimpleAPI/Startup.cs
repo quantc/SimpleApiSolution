@@ -34,6 +34,7 @@ namespace SimpleAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseSession();
             app.UseMvc();
         }
     }
