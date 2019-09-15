@@ -13,7 +13,7 @@ namespace SimpleAPI.Test
         public void GetValues()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Something", returnValue);
+            Assert.Equal("Something else", returnValue);
         }
     }
 }
